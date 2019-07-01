@@ -1,0 +1,27 @@
+{
+  "name": "backend-18-19",
+  "version": "1.0.0",
+  "description": "backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./server/script/index.js",
+    "start-server": "nodemon ./server/script/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chelseadoeleman/backend.git"
+  },
+  "keywords": [],
+  "author": "Chelsea Doeleman",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "helmet": "^3.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
